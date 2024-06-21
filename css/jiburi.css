@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;  
+}
+
 body {
     display: flex;
     justify-content: flex-start;
@@ -16,4 +20,6 @@ body {
 .image-column img {
     margin: 0;
     padding: 0;
+    max-width: 200px;  /* 画像の最大幅を200pxに設定 */
+    height: auto;     /* 画像の高さをアスペクト比に応じて自動調整 */
 }
