@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.image-column img {
+    margin: 0;
+    padding: 0;
+}
