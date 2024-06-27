@@ -22,4 +22,9 @@ h1{
 
 .work p {
     clear: none;
+    font-size: 20px;
+}
+
+.work .content {
+    display: flex;
 }
