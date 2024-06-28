@@ -2,6 +2,48 @@
     font-size: 40px;
 }
 
+.titleback {
+    font-size: 40px;
+    
+    background: url("https://www.ghibli.jp/images/kaguya1.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 20px; 
+    display: inline-block;
+    width: 100%; 
+    box-sizing: border-box; 
+    position: relative;
+}
+
+/* .titleback::before {
+    content: "";
+    background: url(https://www.ghibli.jp/images/kaguya1.jpg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;  /* 透明度の調整 */
+    /* z-index: -1;
+} */ */
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+.backul{
+    background-color: white;
+    width: 27%;
+    /* opacity: 0.5; */
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+/* .d ul{
+    background-color: rgba(255, 255, 255, 0.4);
+} */
+
 h1{
     text-align: center;
 }
