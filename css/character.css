@@ -15,4 +15,15 @@ h3{
 
 ul{
     display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    flex-wrap: wrap;
+    margin-right: 60px;
+    list-style: none;
+}
+
+.edge{
+    margin-left: 40px;
 }
