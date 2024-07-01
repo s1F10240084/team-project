@@ -83,3 +83,37 @@ h1{
 .work .content {
     display: flex;
 }
+
+@media (max-width: 768px) {
+    
+    .title {
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    
+    .titleback {
+        font-size: 24px;
+    }
+
+    
+    .backul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    
+    .work img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .work .content {
+        flex-direction: column; 
+    }
+
+    .intro {
+        margin-left: 0;
+    }
+}
